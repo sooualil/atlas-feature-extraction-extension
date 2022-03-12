@@ -3,7 +3,6 @@ import json
 import os
 from time import sleep, time
 import uuid
-import warnings
 
 from core.logger import Logger
 from .plugins.FTP import AuxFTPFeatures
@@ -21,9 +20,6 @@ from nfstream.flow import NFlow
 from .plugins.DNS import AuxDNSFeatures
 
 from util.functions import loadConfig, relative
-
-with warnings.catch_warnings():
-    warnings.simplefilter("ignore")
 
 try:
     # load and parse configuration

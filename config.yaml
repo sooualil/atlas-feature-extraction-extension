@@ -1,5 +1,5 @@
 # input: eth0
-# id: feature_extension_1
+id: feature_extension_1
 name: feature extension 1
 description: example feature extraction description
 authors: flan ben flan

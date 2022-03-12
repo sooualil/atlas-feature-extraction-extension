@@ -1,4 +1,4 @@
-This is a plugin for Atlas IDS.
+This is a feature plugin for Atlas IDS.
 It reads data from the input (file or interface) and transfers it through Redis.
 
 Installation

@@ -1,0 +1,64 @@
+# input: eth0
+# id: feature_extension_1
+name: feature extension 1
+description: example feature extraction description
+authors: flan ben flan
+license: BSD
+version: 1.0
+
+runtime: 
+  name: extension.py
+
+# dependencies: dependecies # TODO
+requirements: requirements.txt # .yaml
+
+plugins:
+  - plugin1
+  - plugin2
+
+log:
+  dir: /logs
+  # Setting the log level: CRITICAL, ERROR, WARNING, INFO, DEBUG
+  level: INFO 
+
+  
+
+
+repository: https://github.com/path/to/repository.git
+
+# TODO: Comment each use case
+channels:
+  input: 
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+  publish: [testFeature]
+
+# Additional options for custom uses
+# Examples: calls for external data or service
+# options:
+#   virustotal:
+#     url: http://example.com/
+#     api_key: api_key

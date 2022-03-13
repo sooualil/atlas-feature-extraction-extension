@@ -29,18 +29,8 @@ repository: https://github.com/path/to/repository.git
 # TODO: Comment each use case
 channels:
   input: 
-    files:
-      - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
-      - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
-      - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
-      - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
-      - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
-      - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
-      - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
-      - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
-      - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
-      - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
-      - /srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/*.pcap
+    files: []
+    interfaces: []
   publish: [testFeature]
 
 # Additional options for custom uses

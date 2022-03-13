@@ -33,13 +33,13 @@ try:
     def worker(inpt, source):
         global i, t
         
-        pile = glob(os.path.expanduser(inpt)) if source == 'file' else inpt
+        pile = [relative(__file__, p) for p in glob(os.path.expanduser(inpt))] if source == 'file' else inpt
         for src in pile:
             logger.debug('Using', source, src)
 
             # Start feature extraction using NFstream
             flow: NFlow
-            for flow in run_nfstream_async(source=relative(__file__, src),
+            for flow in run_nfstream_async(source=src,
                                            snapshot_length=128,
                                            idle_timeout=600,
                                            active_timeout=3600 if source == 'file' else 60,

@@ -84,7 +84,7 @@ try:
 
 
     for inpt in config.channels.input.files or []: worker(inpt, 'file')
-    if config.channels.input.interfaces: worker(config.channels.input.interfaces, 'file')
+    if config.channels.input.interfaces: worker(config.channels.input.interfaces, 'interface')
 
                 # sleep(1)
 

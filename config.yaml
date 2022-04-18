@@ -29,7 +29,7 @@ repository: https://github.com/path/to/repository.git
 # TODO: Comment each use case
 channels:
   input: 
-    files: []
+    files: [/srv/data/soufiane.oualil/UNSW-NB15/UNSW_NB15_pcap_files/merged*/merged_pcap.pcap]
     interfaces: []
   publish: [testFeature]
 
